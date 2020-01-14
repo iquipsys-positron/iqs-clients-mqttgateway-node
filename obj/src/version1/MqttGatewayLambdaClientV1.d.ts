@@ -1,4 +1,4 @@
-import { CommandableLambdaClient } from 'pip-services-aws-node';
+import { CommandableLambdaClient } from 'pip-services3-aws-node';
 import { CommandValueV1 } from './CommandValueV1';
 import { IMqttGatewayClientV1 } from './IMqttGatewayClientV1';
 export declare class MqttGatewayLambdaClientV1 extends CommandableLambdaClient implements IMqttGatewayClientV1 {

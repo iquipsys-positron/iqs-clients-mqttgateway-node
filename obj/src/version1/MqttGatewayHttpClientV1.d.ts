@@ -1,4 +1,4 @@
-import { CommandableHttpClient } from 'pip-services-rpc-node';
+import { CommandableHttpClient } from 'pip-services3-rpc-node';
 import { CommandValueV1 } from './CommandValueV1';
 import { IMqttGatewayClientV1 } from './IMqttGatewayClientV1';
 export declare class MqttGatewayHttpClientV1 extends CommandableHttpClient implements IMqttGatewayClientV1 {

@@ -1,6 +1,6 @@
 {
     "name": "iqs-clients-mqttgateway-node",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "Conceptual Vision Consulting LLC",
     "description": "Node.js client sdk for mqttgateway microservice",
     "contributors": [

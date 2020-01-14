@@ -1,6 +1,6 @@
-import { IReferences } from 'pip-services-commons-node';
-import { Descriptor } from 'pip-services-commons-node';
-import { DirectClient } from 'pip-services-rpc-node';
+import { IReferences } from 'pip-services3-commons-node';
+import { Descriptor } from 'pip-services3-commons-node';
+import { DirectClient } from 'pip-services3-rpc-node';
 
 import { CommandValueV1 } from './CommandValueV1';
 import { IMqttGatewayClientV1 } from './IMqttGatewayClientV1';

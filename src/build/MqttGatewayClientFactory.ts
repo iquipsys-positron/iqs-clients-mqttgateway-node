@@ -1,5 +1,5 @@
-import { Descriptor } from 'pip-services-commons-node';
-import { Factory } from 'pip-services-components-node';
+import { Descriptor } from 'pip-services3-commons-node';
+import { Factory } from 'pip-services3-components-node';
 
 import { MqttGatewayNullClientV1 } from '../version1/MqttGatewayNullClientV1';
 import { MqttGatewayDirectClientV1 } from '../version1/MqttGatewayDirectClientV1';

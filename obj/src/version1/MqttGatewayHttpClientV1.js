@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const pip_services_commons_node_1 = require("pip-services-commons-node");
-const pip_services_rpc_node_1 = require("pip-services-rpc-node");
-class MqttGatewayHttpClientV1 extends pip_services_rpc_node_1.CommandableHttpClient {
+const pip_services3_commons_node_1 = require("pip-services3-commons-node");
+const pip_services3_rpc_node_1 = require("pip-services3-rpc-node");
+class MqttGatewayHttpClientV1 extends pip_services3_rpc_node_1.CommandableHttpClient {
     constructor(config) {
         super('v1/mqttgateway');
         if (config != null)
-            this.configure(pip_services_commons_node_1.ConfigParams.fromValue(config));
+            this.configure(pip_services3_commons_node_1.ConfigParams.fromValue(config));
     }
     sendCommands(correlationId, orgId, deviceId, values, timestamp, callback) {
         this.callCommand('send_commands', correlationId, {

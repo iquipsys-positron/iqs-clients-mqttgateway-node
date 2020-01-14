@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const pip_services_commons_node_1 = require("pip-services-commons-node");
-const pip_services_rpc_node_1 = require("pip-services-rpc-node");
+const pip_services3_commons_node_1 = require("pip-services3-commons-node");
+const pip_services3_rpc_node_1 = require("pip-services3-rpc-node");
 //import { IMqttGatewayController } from 'iqs-services-mqttgateway-node';
-class MqttGatewayDirectClientV1 extends pip_services_rpc_node_1.DirectClient {
+class MqttGatewayDirectClientV1 extends pip_services3_rpc_node_1.DirectClient {
     constructor() {
         super();
-        this._dependencyResolver.put('controller', new pip_services_commons_node_1.Descriptor("iqs-services-mqttgateway", "controller", "*", "*", "*"));
+        this._dependencyResolver.put('controller', new pip_services3_commons_node_1.Descriptor("iqs-services-mqttgateway", "controller", "*", "*", "*"));
     }
     sendCommands(correlationId, orgId, deviceId, values, timestamp, callback) {
         let timing = this.instrument(correlationId, 'mqttgateway.send_commands');

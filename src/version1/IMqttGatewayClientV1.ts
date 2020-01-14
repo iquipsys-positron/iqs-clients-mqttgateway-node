@@ -1,5 +1,5 @@
 import { CommandValueV1 } from './CommandValueV1';
-import { Command } from 'pip-services-commons-node';
+import { Command } from 'pip-services3-commons-node';
 
 export interface IMqttGatewayClientV1 {
     sendCommands(correlationId: string, orgId: string, deviceId: string,

@@ -1,4 +1,4 @@
-import { DirectClient } from 'pip-services-rpc-node';
+import { DirectClient } from 'pip-services3-rpc-node';
 import { CommandValueV1 } from './CommandValueV1';
 import { IMqttGatewayClientV1 } from './IMqttGatewayClientV1';
 export declare class MqttGatewayDirectClientV1 extends DirectClient<any> implements IMqttGatewayClientV1 {
