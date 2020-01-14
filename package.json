@@ -1,6 +1,6 @@
 {
     "name": "iqs-clients-mqttgateway-node",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "Conceptual Vision Consulting LLC",
     "description": "Node.js client sdk for mqttgateway microservice",
     "contributors": [
@@ -38,10 +38,10 @@
         "rebenchmark": "tsc && matcha -R clean -I tdd ./obj/benchmark/run.js"
     },
     "dependencies": {
-        "pip-services-commons-node": "^3.0.0",
-        "pip-services-components-node": "^3.0.0",
-        "pip-services-rpc-node": "^3.0.0",
-        "pip-services-aws-node": "^3.0.0"
+        "pip-services3-commons-node": "^3.0.0",
+        "pip-services3-components-node": "^3.0.0",
+        "pip-services3-rpc-node": "^3.0.0",
+        "pip-services3-aws-node": "^3.0.0"
     },
     "devDependencies": {
         "@types/node": "*",
